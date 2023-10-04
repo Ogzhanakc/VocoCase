@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:voco_case/pages/login_page.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -13,9 +14,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(
-          
-        ),
+        body: LoginPage()
       ),
     );
   }
